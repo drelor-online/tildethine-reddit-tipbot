@@ -6,10 +6,10 @@ remove: env-remove
 
 env-setup:
 	conda env create -f environment.yml
-	conda activate mayo-reddit-tipbot
+	conda activate tildethine-reddit-tipbot
 
 env-remove:
-	conda env remove -n mayo-reddit-tipbot -y
+	conda env remove -n tildethine-reddit-tipbot -y
 
 module-setup:
 	pip install -e src
